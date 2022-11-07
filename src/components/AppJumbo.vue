@@ -7,7 +7,7 @@ export default{
     },
     methods:{
         getImagePath(){
-            return new URL(`../assets/img/(this.imgName)`, import.meta.utl).href;
+            return new URL(`../assets/img/${this.imgName}`, import.meta.url).href;
         }
     }
 }
@@ -20,7 +20,7 @@ export default{
 
 </template>
 
-<style>
+<style scoped>
 .jumbo{
   width: 100%;
   height: 50vh;

@@ -7,6 +7,9 @@ export default {
       title: "Ciao io sono Uffa",
     }
   },
+  components:{
+    AppJumboVue
+  },
 }
 </script>
 
@@ -23,10 +26,14 @@ export default {
 
 header{
   width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header h1{
-  text-align: center;
   font-family: sans-serif;
   color: antiquewhite;
+  font-size: 50px;
 }
 </style>
